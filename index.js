@@ -10,7 +10,7 @@ app.use(express.json());
 //middleware
 app.use(
   cors({
-    origin: "https://todo-gray-gamma.vercel.app/",
+    origin: "https://todo-gray-gamma.vercel.app",
   })
 );
 
