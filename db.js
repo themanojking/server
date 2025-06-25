@@ -5,9 +5,7 @@ const pool = new Pool({
     host: 'ep-raspy-silence-a8rqgyos-pooler.eastus2.azure.neon.tech',
     database: 'neondb',
     port: "5432",
-    ssl: {
-        rejectUnauthorized: false,
-    },
+    ssl: 'require',
 
 });
 
